@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:new_lotto_app/main/main_home.dart';
 
 void main() {
   runApp(MyApp());
