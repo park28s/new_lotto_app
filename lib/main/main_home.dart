@@ -47,7 +47,8 @@ class _MainHomeState extends State<MainHome> {
                           ),
                         )
                       ],
-                    )
+                    ),
+                    SizedBox(height: 3,)
                   ],
                 ),
               )
