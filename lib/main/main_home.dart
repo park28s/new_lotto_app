@@ -39,8 +39,11 @@ class _MainHomeState extends State<MainHome> {
                           height: size.height * 0.06,
                           width: size.width * 0.2,
                           decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(10),
-                            color: Colors.transparent
+                              borderRadius: BorderRadius.circular(10),
+                              color: Colors.transparent),
+                          child: IconButton(
+                            icon: Icon(Icons.account_circle, size: 36, color: Colors.white),
+                            onPressed: () {},
                           ),
                         )
                       ],
