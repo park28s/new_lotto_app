@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:new_lotto_app/main/main_home.dart';
+import 'main/main_home.dart';
 
 void main() {
   runApp(MyApp());
@@ -10,13 +10,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Lotto Automatic System',
+      title: 'Lotto AutoMatic Issuance',
       theme: ThemeData(
         fontFamily: 'CookieRun',
-        appBarTheme: AppBarTheme(
-          color: Colors.white,
-          elevation: 0
+        appBarTheme: AppBarTheme(color: Colors.white, elevation: 0
         ),
+        visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: MainHome(),
     );
